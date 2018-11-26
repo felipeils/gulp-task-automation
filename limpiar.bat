@@ -1,0 +1,2 @@
+del /q C:\"ANGULAR JAVA"\plantilla-web\app-portalsocio-parent\app-portalsocio-web\src\main\webapp\resources\polymer\*
+FOR /D %%p IN (C:\"ANGULAR JAVA"\plantilla-web\app-portalsocio-parent\app-portalsocio-web\src\main\webapp\resources\polymer\*.*) DO rmdir "%%p" /s /q
